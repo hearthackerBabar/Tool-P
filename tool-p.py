@@ -182,9 +182,9 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-        print "\033[1;37m[1]Login With Token"
-        print "\033[1;37m[2]Download Token App"
-        print "\033[1;37m[0]\033[1;33mE\033[1;34mx\033[1;35mi\033[1;36mt"
+        print "\033[1;33m[1]\033[1;37mLogin With Token"
+        print "\033[1;33m[2]\033[1;37mDownload Token App"
+        print "\033[1;33m[0]\033[1;37mExit"
 	pilih_login()
 
 def pilih_login():
@@ -690,4 +690,3 @@ def pilih_super():
 if __name__ == '__main__':
 	login()
 gin()
-			
