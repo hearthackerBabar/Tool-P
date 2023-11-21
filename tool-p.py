@@ -182,12 +182,9 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;36m[1]Login With Facebook"
-        print "\033[1;35m[2]Login With Token"
-        print "\033[1;34m[3]Download Token App"
-        print "\033[1;33m[4]Subscribe YouTube Channel"
-	print "\033[1;31m[5]Join Whatsapp Group For Help"
-        print "\033[1;32m[0]\033[1;33mE\033[1;34mx\033[1;35mi\033[1;36mt"
+        print "\033[1;37m[1]Login With Token"
+        print "\033[1;37m[2]Download Token App"
+        print "\033[1;37m[0]\033[1;33mE\033[1;34mx\033[1;35mi\033[1;36mt"
 	pilih_login()
 
 def pilih_login():
@@ -195,19 +192,11 @@ def pilih_login():
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
-	elif peak =="1":
-		login1()
-        elif peak =="2":
+        elif peak =="1":
 	        tokenz()
-        elif peak =="3":
+        elif peak =="2":
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
-        elif peak =="4":
-	        os.system('xdg-open https://www.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
-	        login()
-        elif peak =="5":
-	        os.system('xdg-open https://chat.whatsapp.com/FlzjJ1wklTo3EvKtkSfwRZ')
-                login()
 	elif peak =="0":
 		keluar()
         else:
@@ -701,4 +690,4 @@ def pilih_super():
 if __name__ == '__main__':
 	login()
 gin()
-		
+			
